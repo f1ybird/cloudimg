@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T09:20:52.890Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="setqXzv466FjCrPpaVLJ" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T09:24:29.491Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="zhGjrI0cG_THvprLCXnx" version="14.6.0" type="github">
   <diagram id="9R8JrCC14vVW3Nw-IIQo" name="Page-1">
     <mxGraphModel dx="1574" dy="5558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -19,8 +19,8 @@
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-6" value="20210319&lt;br&gt;&amp;nbsp;2345&amp;nbsp; &amp;nbsp;&lt;br&gt;第一个参数是日期分批&lt;br&gt;第二个参数是算法ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=left;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="560" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TrZanLbn_PPCmoQ2LTcT-9" value="hdfs结果分区数据写入redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-9" value="推荐结果存到redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="405" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TrZanLbn_PPCmoQ2LTcT-10" target="TrZanLbn_PPCmoQ2LTcT-8">
           <mxGeometry relative="1" as="geometry">
@@ -61,8 +61,8 @@
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-34" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=12;endSize=4.33;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="354.5" as="sourcePoint" />
-            <mxPoint x="330" y="354.5" as="targetPoint" />
+            <mxPoint x="398" y="354.29" as="sourcePoint" />
+            <mxPoint x="338" y="354.29" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-37" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -82,13 +82,6 @@
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-22" value="保存到hdfs" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="TrZanLbn_PPCmoQ2LTcT-37">
           <mxGeometry x="50" y="20" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="TrZanLbn_PPCmoQ2LTcT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrZanLbn_PPCmoQ2LTcT-8" target="TrZanLbn_PPCmoQ2LTcT-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="665" y="620" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="-920" width="120" height="60" as="geometry" />
@@ -172,6 +165,9 @@
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-76" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=bottom;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="-270" width="170" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrZanLbn_PPCmoQ2LTcT-8" target="TrZanLbn_PPCmoQ2LTcT-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
