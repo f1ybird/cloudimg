@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T07:14:58.699Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="fraFQAOQN-FS4H3a22RU" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T07:15:13.600Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="xZ7i_DBMoULhZUDhZ5RZ" version="14.6.0" type="github">
   <diagram id="9R8JrCC14vVW3Nw-IIQo" name="Page-1">
     <mxGraphModel dx="1102" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-18" value="按照分区读取hdfs商品数据" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="590" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TrZanLbn_PPCmoQ2LTcT-19" value="构建wordItemcoceRdd&lt;br&gt;类目清洗&lt;br&gt;产品名分词&lt;br&gt;词 =&amp;gt; 商品 关联&lt;br&gt;&lt;br&gt;数据分治（分批跑）" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-19" value="构建wordItemcoceRdd&lt;br&gt;类目清洗&lt;br&gt;产品名分词&lt;br&gt;词 =&amp;gt; 商品 关联&lt;br&gt;word:itecode&lt;br&gt;&lt;br&gt;数据分治（分批跑）" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="465" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-20" value="计算二元贡献度&lt;br&gt;itemcode:score" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
