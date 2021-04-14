@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T07:18:29.448Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="agBygh74INzF1Ysh1Blb" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T07:24:11.218Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="CJwTeGnUEL2fnHVyGWnr" version="14.6.0" type="github">
   <diagram id="9R8JrCC14vVW3Nw-IIQo" name="Page-1">
     <mxGraphModel dx="1102" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -60,6 +60,15 @@
         </mxCell>
         <mxCell id="TrZanLbn_PPCmoQ2LTcT-29" value="product_db商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="1060" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-30" value="&lt;div&gt;1.同一个类目， 商品之间的二元关系数，有一个相同的词，算一个关系&lt;/div&gt;&lt;div&gt;2.每一个itemcode和多少个itemcode有关系,用log函数降级&lt;/div&gt;&lt;div&gt;3.计算分数（排序，获取top）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="220" y="295" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-34" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=12;endSize=4.33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
