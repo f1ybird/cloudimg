@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T07:32:38.260Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="-q3E_S0C8nXKOiSIOOZP" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T08:34:32.223Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="cbHb8LMy-erxWumdYPzy" version="14.6.0" type="github">
   <diagram id="9R8JrCC14vVW3Nw-IIQo" name="Page-1">
     <mxGraphModel dx="1574" dy="5558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -121,6 +121,24 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1220" y="740" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-70" width="1200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrZanLbn_PPCmoQ2LTcT-51" target="TrZanLbn_PPCmoQ2LTcT-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-51" value="浏览历史ic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrZanLbn_PPCmoQ2LTcT-52" target="TrZanLbn_PPCmoQ2LTcT-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-52" value="推荐ic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TrZanLbn_PPCmoQ2LTcT-53" value="查询es选品池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
